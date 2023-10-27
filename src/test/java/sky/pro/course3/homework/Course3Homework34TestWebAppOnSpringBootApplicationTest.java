@@ -14,14 +14,12 @@ import sky.pro.course3.homework.model.Student;
 import sky.pro.course3.homework.repository.FacultyRepository;
 import sky.pro.course3.homework.repository.StudentRepository;
 
-import java.util.Optional;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-class HogwartsApplicationTest {
+class Course3Homework34TestWebAppOnSpringBootApplicationTest {
     @LocalServerPort
     private int port;
     @Autowired

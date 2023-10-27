@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @OpenAPIDefinition
-public class HogwartsApplication {
+public class Course3Homework34TestWebAppOnSpringBootApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(HogwartsApplication.class, args);
+        SpringApplication.run(Course3Homework34TestWebAppOnSpringBootApplication.class, args);
     }
 
 }
